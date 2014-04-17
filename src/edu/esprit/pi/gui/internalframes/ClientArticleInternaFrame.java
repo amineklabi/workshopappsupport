@@ -31,7 +31,7 @@ public class ClientArticleInternaFrame extends javax.swing.JInternalFrame {
     Stock s = new Stock();
     Article a = new Article();
     List<Article> articles;
-    //Stock s = new 
+    //
     ClientDAO clientDAO = new ClientDAO();
     StockDAO stockDAO = new StockDAO();
     ArticleDAO articleDAO = new ArticleDAO();
