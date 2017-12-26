@@ -16,7 +16,7 @@ import java.sql.Connection;
 public class ExecuteSQL {
     public static void main(String[] args) {
         Connection connection = ConnectionFactory.getInstance().getConnection();
-        String script = ScriptHelper.getInstance().getScriptAsString("./scripts/scriptCreationStockDepotDB.sql");
+        String script = ScriptHelper.getInstance().getScriptAsString("./script/scriptCreationStockDepotDB.sql");
         ScriptHelper.getInstance().executeScript(script, connection);
     }
 }

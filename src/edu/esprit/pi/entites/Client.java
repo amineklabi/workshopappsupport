@@ -6,8 +6,6 @@
 
 package edu.esprit.pi.entites;
 
-import java.util.List;
-
 /**
  *
  * @author Amine
